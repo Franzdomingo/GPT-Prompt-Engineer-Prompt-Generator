@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="modify_chain_of_thought_yaml">
+  <param>task=Modify</param>
+  <param>format=YAML</param>
+  <param>technique=Chain-of-Thought Prompting</param>
+  <param>paradigm=Reasoning-based</param>
+</profile>

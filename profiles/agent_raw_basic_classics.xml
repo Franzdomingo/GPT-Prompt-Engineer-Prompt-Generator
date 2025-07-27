@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+  <name>Raw and Basic (Classics)</name>
+  <description>A profile for classic, raw prompt engineering. Prompts are inserted as-is, with minimal processing. Focus is on enhancing grammar and clarity, but the core content remains unaltered.</description>
+  <guidelines>
+    <item>Insert prompts in their original, raw form.</item>
+    <item>Apply only basic grammar and clarity enhancements.</item>
+    <item>Avoid adding, removing, or reinterpreting content.</item>
+    <item>Suitable for classic prompt engineering scenarios where authenticity is prioritized.</item>
+  </guidelines>
+  <example>
+    <raw>write story about dog</raw>
+    <enhanced>Write a story about a dog.</enhanced>
+  </example>
+</profile>

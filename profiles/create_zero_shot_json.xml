@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="create_zero_shot_json">
+  <param>task=Create</param>
+  <param>format=JSON</param>
+  <param>technique=Zero-shot Prompting</param>
+  <param>paradigm=Reasoning-based</param>
+</profile>

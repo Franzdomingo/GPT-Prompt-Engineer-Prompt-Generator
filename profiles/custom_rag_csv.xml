@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="custom_rag_csv">
+  <param>task=Custom</param>
+  <param>format=CSV</param>
+  <param>technique=Retrieval Augmented Generation</param>
+  <param>paradigm=Agent-based</param>
+</profile>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_meta_prompting_json">
+  <param>task=Agent</param>
+  <param>format=JSON</param>
+  <param>technique=Meta Prompting</param>
+  <param>paradigm=Reasoning-based</param>
+</profile>

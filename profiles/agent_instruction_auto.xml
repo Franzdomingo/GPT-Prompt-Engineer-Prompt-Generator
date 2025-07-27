@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_instruction_auto">
+  <param>task=Agent</param>
+  <param>instruction=auto</param>
+  <param>format=auto</param>
+  <param>technique=auto</param>
+  <param>paradigm=auto</param>
+</profile>

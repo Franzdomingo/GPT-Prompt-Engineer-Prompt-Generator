@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_basic_auto">
+  <param>task=auto</param>
+  <param>format=auto</param>
+  <param>technique=auto</param>
+  <param>paradigm=auto</param>
+</profile>

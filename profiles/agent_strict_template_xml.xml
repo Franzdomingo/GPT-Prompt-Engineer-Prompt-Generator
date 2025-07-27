@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_strict_template_xml">
+  <param>task=Agent</param>
+  <param>format=XML</param>
+  <param>technique=Strict Template</param>
+  <param>paradigm=Symbolic (Classic/GOFAI)</param>
+</profile>

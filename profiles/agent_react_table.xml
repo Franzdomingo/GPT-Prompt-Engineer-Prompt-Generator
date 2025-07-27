@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_react_table">
+  <param>task=Agent</param>
+  <param>format=Table (Markdown Table)</param>
+  <param>technique=ReAct</param>
+  <param>paradigm=Agent-based</param>
+</profile>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="enhance_few_shot_markdown">
+  <param>task=Enhance</param>
+  <param>format=Markdown</param>
+  <param>technique=Few-shot Prompting</param>
+  <param>paradigm=Agent-based</param>
+</profile>

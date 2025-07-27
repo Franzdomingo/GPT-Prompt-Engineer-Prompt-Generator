@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile name="agent_reflexion_ini">
+  <param>task=Agent</param>
+  <param>format=INI</param>
+  <param>technique=Reflexion</param>
+  <param>paradigm=Reasoning-based</param>
+</profile>
