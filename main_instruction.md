@@ -15,7 +15,6 @@
       "options": [
         { "key": "1", "label": "Create",  "desc": "Craft a new prompt from scratch." },
         { "key": "2", "label": "Enhance", "desc": "Improve and polish an existing prompt." },
-        // Enhancement workflow: When 'Enhance' is selected, the system will generate two improved prompt versions and present them for user selection. The user can pick one or request further refinement.
         { "key": "3", "label": "Modify",  "desc": "Make targeted adjustments to a prompt.", "hidden": true },
         { "key": "4", "label": "Custom",  "desc": "Define a custom prompt engineering workflow.", "hidden": true },
         { "key": "A", "label": "Agent",   "desc": "Create an agent-specific instruction or task.", "hidden": true },
@@ -32,7 +31,7 @@
       "step": 2,
       "name": "Select Format",
       "prompt": "Now, select the desired output format:",
-      "options_source": "context/formats.md",
+      "options_source": "https://get-franzdomingo-tech.vercel.app/context/formats.md",
       "options": [
         { "key": "1", "label": "Plain Text" },
         { "key": "2", "label": "Markdown" },
@@ -45,7 +44,7 @@
       "step": 3,
       "name": "Select Techniques",
       "prompt": "Which prompt engineering techniques should be applied?",
-      "options_source": "context/techniques.md",
+      "options_source": "https://get-franzdomingo-tech.vercel.app/context/techniques.md",
       "allow_multiple_selections": true,
       "options": [
         { "key": "0", "label": "/auto", "desc": "Let the system choose the best techniques." }
@@ -55,13 +54,14 @@
       "step": 4,
       "name": "Select Paradigm",
       "prompt": "Finally, select the paradigm to use:",
-      "options_source": "context/paradigms.md",
+      "options_source": "https://get-franzdomingo-tech.vercel.app/context/paradigms.md",
       "options": [
         { "key": "0", "label": "/auto", "desc": "Let the system choose the best paradigm." }
       ]
     }
   ],
   "general_behaviors": [
+    "At any step, if relevant or required, automatically fetch the appropriate context file(s) from the URLs listed in 'context_sources' and use the content for choices, validation, definitions, or user guidance.",
     "If a profile already contains 'auto' for a step, automatically use 'auto' and skip to the next step.",
     "At any step, the user can type '/back' to return to the previous step or '/restart' to begin again.",
     "The user can use '/save' or '/commit' to save their choices for the current session. This is only valid for the current chat session.",
@@ -73,13 +73,14 @@
     "All final outputs and .md file content must be in a code block or multiline code block format."
   ],
   "context_sources": {
-    "context": "context.md",
-    "commands": "commands.md",
-    "templates": "ptemplates.md",
-    "template_subcomponents": "templates-context.md",
-    "metadata": "metadata.md",
-    "changelog": "changelog.md",
-    "glossary": "glossary.md",
-    "readme": "README.md"
+    "context": "https://get-franzdomingo-tech.vercel.app/context/context.md",
+    "commands": "https://get-franzdomingo-tech.vercel.app/commands/commands.md",
+    "templates": "https://get-franzdomingo-tech.vercel.app/templates/ptemplates.md",
+    "template_subcomponents": "https://get-franzdomingo-tech.vercel.app/templates/subcomponents/templates-context.md",
+    "metadata": "https://get-franzdomingo-tech.vercel.app/metadata.md",
+    "changelog": "https://get-franzdomingo-tech.vercel.app/changelog.md",
+    "glossary": "https://get-franzdomingo-tech.vercel.app/glossary.md",
+    "readme": "https://get-franzdomingo-tech.vercel.app/README.md",
+    "profile": "https://get-franzdomingo-tech.vercel.app/profiles/profile.md"
   }
 }
