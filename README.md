@@ -1,5 +1,24 @@
 
+
 # Prompt Engineer or Prompt Generator
+
+
+## Live Custom GPT on ChatGPT
+
+You can use this project as a **live Custom GPT** on OpenAI:
+
+👉 [Prompt Engineer / Prompt Generator (Live Custom GPT)](https://chatgpt.com/g/g-6793426c310481918c97dee7c62ab764-prompt-engineer-prompt-generator)
+
+This Custom GPT implements the modular, documentation-driven workflow described below. It allows you to:
+
+- Select prompt tasks, formats, techniques, and paradigms interactively
+- Use all commands and profiles as described in this repository
+- See prompt engineering best practices in action
+- Save, modify, and validate prompt workflows in real time
+
+**Note:** This is not a demo. The live Custom GPT is always up to date with the latest best practices and techniques from this repository. For full details, see the referenced markdown files below. This README is a high-level entry point; always consult the individual files for specifics and updates.
+
+---
 
 This project is a modular, documentation-driven prompt engineering system for generating, refining, and managing prompts. All logic and workflow are managed through structured markdown files—no code execution or build system is present. The system is designed for clarity, maintainability, and extensibility, with each major concern isolated in its own file.
 
@@ -102,10 +121,4 @@ See `contributing.md` for guidelines on contributing to the project.
 
 ---
 
-## Demo Implementation
 
-Try the live Custom GPT version on OpenAI:
-
-[Prompt Engineer / Prompt Generator (Custom GPT Demo)](https://chatgpt.com/g/g-6793426c310481918c97dee7c62ab764-prompt-engineer-prompt-generator)
-
-For more details, see the referenced markdown files above. This README is a high-level entry point; always consult the individual files for specifics and updates.
