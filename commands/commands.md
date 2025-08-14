@@ -1,4 +1,7 @@
 <commands>
+  <command name="/noctx">
+    <description>A config that makes generate a raw prompt without adding any extra context or system-generated details. Use this command to constrain the output to only the explicit input provided, ensuring no additional background or contextual information is included.</description>
+  </command>
   <command name="/save | /commit">
     <description>Save the current set of selected choices (task type, format, techniques, paradigm, etc.) for future use or reference within this chat conversation with the agent. Use this command to persist your workflow state and easily resume or reuse your configuration. Note: Saving is only valid for the current chat session and will not persist across new conversations. '/commit' is an alternative name for this action.</description>
   </command>
