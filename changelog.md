@@ -22,7 +22,7 @@
   - Clarified fetching of context sources before prompt creation/output.
   - Improved instructions for handling natural language tasks and workflow entry points.
 
-## 2025-07-29
+## 2025-08-14
 
 - Introduced `/noctx` command to allow bypassing context source fetching during prompt enhancement workflow.
 - Updated documentation to reflect usage and limitations of the `/noctx` command.
